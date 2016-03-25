@@ -1,0 +1,489 @@
+2016-03-22 13:43:22 [127.0.0.1][-][sjcj9eugocgb71eo42t34ah941][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: frontend\models\SignupForm::repassword' in /home/wj/www/advanced/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /home/wj/www/advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(2051): yii\base\Component->__get('repassword')
+#1 /home/wj/www/advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(1226): yii\helpers\BaseHtml::getAttributeValue(Object(frontend\models\SignupForm), 'repassword')
+#2 /home/wj/www/advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(1316): yii\helpers\BaseHtml::activeInput('password', Object(frontend\models\SignupForm), 'repassword', Array)
+#3 /home/wj/www/advanced/vendor/yiisoft/yii2/widgets/ActiveField.php(409): yii\helpers\BaseHtml::activePasswordInput(Object(frontend\models\SignupForm), 'repassword', Array)
+#4 /home/wj/www/advanced/frontend/views/site/signup.php(28): yii\widgets\ActiveField->passwordInput()
+#5 /home/wj/www/advanced/vendor/yiisoft/yii2/base/View.php(325): require('/home/wj/www/ad...')
+#6 /home/wj/www/advanced/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/wj/www/ad...', Array)
+#7 /home/wj/www/advanced/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/wj/www/ad...', Array, Object(frontend\controllers\SiteController))
+#8 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Controller.php(377): yii\base\View->render('signup', Array, Object(frontend\controllers\SiteController))
+#9 /home/wj/www/advanced/frontend/controllers/SiteController.php(163): yii\base\Controller->render('signup', Array)
+#10 [internal function]: frontend\controllers\SiteController->actionSignup()
+#11 /home/wj/www/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#12 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#13 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('signup', Array)
+#14 /home/wj/www/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/signup', Array)
+#15 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /home/wj/www/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#17 {main}
+2016-03-22 13:43:22 [127.0.0.1][-][sjcj9eugocgb71eo42t34ah941][info][application] $_COOKIE = [
+    'PHPSESSID' => 'sjcj9eugocgb71eo42t34ah941'
+    '_csrf' => 'f3eea25a806985430a6c362cd89e3ccc3ac97eb96c304aeb1820b01b4c8f6a30a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"syzLNnXFeklb96JTUwwzyN0DVIrjGuSa\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/signup.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49420'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36'
+    'HTTP_REFERER' => 'http://f.yii2.com/site/login.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=sjcj9eugocgb71eo42t34ah941; _csrf=f3eea25a806985430a6c362cd89e3ccc3ac97eb96c304aeb1820b01b4c8f6a30a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22syzLNnXFeklb96JTUwwzyN0DVIrjGuSa%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458625402.363
+    'REQUEST_TIME' => 1458625402
+]
+2016-03-22 14:25:45 [127.0.0.1][2][f7me07rb27l75g37qo02pu4bc5][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Illegal offset type' in /home/wj/www/advanced/frontend/views/layouts/main.php:49
+Stack trace:
+#0 /home/wj/www/advanced/frontend/views/layouts/main.php(49): yii\base\ErrorHandler->handleError(2, 'Illegal offset ...', '/home/wj/www/ad...', 49, Array)
+#1 /home/wj/www/advanced/vendor/yiisoft/yii2/base/View.php(325): require('/home/wj/www/ad...')
+#2 /home/wj/www/advanced/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/wj/www/ad...', Array)
+#3 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Controller.php(392): yii\base\View->renderFile('/home/wj/www/ad...', Array, Object(frontend\controllers\SiteController))
+#4 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\Controller->renderContent('<div class="sit...')
+#5 /home/wj/www/advanced/frontend/controllers/SiteController.php(75): yii\base\Controller->render('index')
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 /home/wj/www/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /home/wj/www/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#11 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/wj/www/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#13 {main}
+2016-03-22 14:25:45 [127.0.0.1][2][f7me07rb27l75g37qo02pu4bc5][info][application] $_COOKIE = [
+    '_csrf' => 'f3eea25a806985430a6c362cd89e3ccc3ac97eb96c304aeb1820b01b4c8f6a30a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"syzLNnXFeklb96JTUwwzyN0DVIrjGuSa\";}'
+    'PHPSESSID' => 'f7me07rb27l75g37qo02pu4bc5'
+    '_identity' => '19422e9709f84151391aafdbc9c8fb38b24c3c3a56c6a3ebe7391d24ac64b3d1a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"It022xps6qYfMTuyUXoB9BzCHIfBz4dl\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50386'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36'
+    'HTTP_REFERER' => 'http://f.yii2.com/site/login.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=f3eea25a806985430a6c362cd89e3ccc3ac97eb96c304aeb1820b01b4c8f6a30a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22syzLNnXFeklb96JTUwwzyN0DVIrjGuSa%22%3B%7D; PHPSESSID=f7me07rb27l75g37qo02pu4bc5; _identity=19422e9709f84151391aafdbc9c8fb38b24c3c3a56c6a3ebe7391d24ac64b3d1a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22It022xps6qYfMTuyUXoB9BzCHIfBz4dl%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458627945.2404
+    'REQUEST_TIME' => 1458627945
+]
+2016-03-22 15:07:28 [127.0.0.1][-][-][error][Swift_TransportException] exception 'Swift_TransportException' with message 'Expected response code 250 but got code "553", with message "553 Mail from must equal authorized user
+"' in /home/wj/www/advanced/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/wj/www/advanced/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('553 Mail from m...', Array)
+#1 /home/wj/www/advanced/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(243): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM:<supp...', Array, Array)
+#2 /home/wj/www/advanced/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(322): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM:<supp...', Array)
+#3 /home/wj/www/advanced/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('support@example...')
+#4 /home/wj/www/advanced/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'support@example...', Array, '<span class="st...')
+#5 /home/wj/www/advanced/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'support@example...', Array, '<span class="st...')
+#6 /home/wj/www/advanced/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(85): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), '<span class="st...')
+#7 /home/wj/www/advanced/vendor/yiisoft/yii2-swiftmailer/Mailer.php(146): Swift_Mailer->send(Object(Swift_Message))
+#8 /home/wj/www/advanced/vendor/yiisoft/yii2/mail/BaseMailer.php(260): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#9 /home/wj/www/advanced/vendor/yiisoft/yii2/mail/BaseMessage.php(48): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#10 /home/wj/www/advanced/frontend/models/PasswordResetRequestForm.php(66): yii\mail\BaseMessage->send()
+#11 /home/wj/www/advanced/frontend/controllers/SiteController.php(175): frontend\models\PasswordResetRequestForm->sendEmail()
+#12 [internal function]: frontend\controllers\SiteController->actionRequestPasswordReset()
+#13 /home/wj/www/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#14 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#15 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('request-passwor...', Array)
+#16 /home/wj/www/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/request-pa...', Array)
+#17 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /home/wj/www/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#19 {main}
+2016-03-22 15:07:26 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'T2xuZFJ1Tno8FRQoHBsWPCoHAgZrQwQuGhsZHis7fj4ZJRwOFQAdGw=='
+    'PasswordResetRequestForm' => [
+        'email' => 'wangjiang988@163.com'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'f3eea25a806985430a6c362cd89e3ccc3ac97eb96c304aeb1820b01b4c8f6a30a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"syzLNnXFeklb96JTUwwzyN0DVIrjGuSa\";}'
+    'PHPSESSID' => 's95ig0kod4npnfa3lgulkfk8l4'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '125'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/request-password-reset.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51288'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '125'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://f.yii2.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://f.yii2.com/site/request-password-reset.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=f3eea25a806985430a6c362cd89e3ccc3ac97eb96c304aeb1820b01b4c8f6a30a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22syzLNnXFeklb96JTUwwzyN0DVIrjGuSa%22%3B%7D; PHPSESSID=s95ig0kod4npnfa3lgulkfk8l4'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458630446.5876
+    'REQUEST_TIME' => 1458630446
+]
+2016-03-22 15:08:18 [127.0.0.1][-][-][error][Swift_TransportException] exception 'Swift_TransportException' with message 'Expected response code 250 but got code "553", with message "553 Mail from must equal authorized user
+"' in /home/wj/www/advanced/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/wj/www/advanced/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('553 Mail from m...', Array)
+#1 /home/wj/www/advanced/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(243): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM:<supp...', Array, Array)
+#2 /home/wj/www/advanced/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(322): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM:<supp...', Array)
+#3 /home/wj/www/advanced/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('support@example...')
+#4 /home/wj/www/advanced/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'support@example...', Array, '<span class="st...')
+#5 /home/wj/www/advanced/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'support@example...', Array, '<span class="st...')
+#6 /home/wj/www/advanced/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(85): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), '<span class="st...')
+#7 /home/wj/www/advanced/vendor/yiisoft/yii2-swiftmailer/Mailer.php(146): Swift_Mailer->send(Object(Swift_Message))
+#8 /home/wj/www/advanced/vendor/yiisoft/yii2/mail/BaseMailer.php(260): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#9 /home/wj/www/advanced/vendor/yiisoft/yii2/mail/BaseMessage.php(48): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#10 /home/wj/www/advanced/frontend/models/PasswordResetRequestForm.php(66): yii\mail\BaseMessage->send()
+#11 /home/wj/www/advanced/frontend/controllers/SiteController.php(175): frontend\models\PasswordResetRequestForm->sendEmail()
+#12 [internal function]: frontend\controllers\SiteController->actionRequestPasswordReset()
+#13 /home/wj/www/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#14 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#15 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('request-passwor...', Array)
+#16 /home/wj/www/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/request-pa...', Array)
+#17 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /home/wj/www/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#19 {main}
+2016-03-22 15:08:18 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'T2xuZFJ1Tno8FRQoHBsWPCoHAgZrQwQuGhsZHis7fj4ZJRwOFQAdGw=='
+    'PasswordResetRequestForm' => [
+        'email' => 'wangjiang988@163.com'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'f3eea25a806985430a6c362cd89e3ccc3ac97eb96c304aeb1820b01b4c8f6a30a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"syzLNnXFeklb96JTUwwzyN0DVIrjGuSa\";}'
+    'PHPSESSID' => 's95ig0kod4npnfa3lgulkfk8l4'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '125'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/request-password-reset.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51288'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '125'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://f.yii2.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://f.yii2.com/site/request-password-reset.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=f3eea25a806985430a6c362cd89e3ccc3ac97eb96c304aeb1820b01b4c8f6a30a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22syzLNnXFeklb96JTUwwzyN0DVIrjGuSa%22%3B%7D; PHPSESSID=s95ig0kod4npnfa3lgulkfk8l4'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458630498.2214
+    'REQUEST_TIME' => 1458630498
+]
+2016-03-22 19:00:13 [127.0.0.1][-][2j5e8algsk1injjv0ppmnmo031][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Wrong password reset token.' in /home/wj/www/advanced/frontend/controllers/SiteController.php:201
+Stack trace:
+#0 [internal function]: frontend\controllers\SiteController->actionResetPassword('umUVezEkyiMnyBj...')
+#1 /home/wj/www/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reset-password', Array)
+#4 /home/wj/www/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/reset-pass...', Array)
+#5 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /home/wj/www/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#7 {main}
+2016-03-22 19:00:12 [127.0.0.1][-][2j5e8algsk1injjv0ppmnmo031][info][application] $_GET = [
+    'token' => 'umUVezEkyiMnyBjkYtp844gWU8MQFYO9_1458630100'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/advanced/frontend/web/index.php'
+    'QUERY_STRING' => 'token=umUVezEkyiMnyBjkYtp844gWU8MQFYO9_1458630100'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/reset-password.html?token=umUVezEkyiMnyBjkYtp844gWU8MQFYO9_1458630100'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '38212'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36'
+    'HTTP_REFERER' => 'http://mail.163.com/js6/read/readhtml.jsp?mid=15:1tbiDx80zVUL6gSdDgAAsK&font=15&color=138144'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458644412.5682
+    'REQUEST_TIME' => 1458644412
+]
+2016-03-22 19:02:55 [127.0.0.1][-][2j5e8algsk1injjv0ppmnmo031][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Wrong password reset token.' in /home/wj/www/advanced/frontend/controllers/SiteController.php:201
+Stack trace:
+#0 [internal function]: frontend\controllers\SiteController->actionResetPassword('umUVezEkyiMnyBj...')
+#1 /home/wj/www/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reset-password', Array)
+#4 /home/wj/www/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/reset-pass...', Array)
+#5 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /home/wj/www/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#7 {main}
+2016-03-22 19:02:55 [127.0.0.1][-][2j5e8algsk1injjv0ppmnmo031][info][application] $_GET = [
+    'token' => 'umUVezEkyiMnyBjkYtp844gWU8MQFYO9_1458630100'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '2j5e8algsk1injjv0ppmnmo031'
+    '_csrf' => '6f58a59dbe1204addcf0875465dd0e0c0bd4eb98b1ecc5ffa96be32bcd590af1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Cj4L7GSTKdPcMP_a937uOPgPrBQvrKvb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/advanced/frontend/web/index.php'
+    'QUERY_STRING' => 'token=umUVezEkyiMnyBjkYtp844gWU8MQFYO9_1458630100'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/reset-password.html?token=umUVezEkyiMnyBjkYtp844gWU8MQFYO9_1458630100'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '38232'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36'
+    'HTTP_REFERER' => 'http://mail.163.com/js6/read/readhtml.jsp?mid=15:1tbiDx80zVUL6gSdDgAAsK&font=15&color=138144'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=2j5e8algsk1injjv0ppmnmo031; _csrf=6f58a59dbe1204addcf0875465dd0e0c0bd4eb98b1ecc5ffa96be32bcd590af1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Cj4L7GSTKdPcMP_a937uOPgPrBQvrKvb%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458644575.6986
+    'REQUEST_TIME' => 1458644575
+]
+2016-03-23 09:07:33 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/wj/www/advanced/vendor/yiisoft/yii2/db/Connection.php:600
+Stack trace:
+#0 /home/wj/www/advanced/vendor/yiisoft/yii2/db/Connection.php(600): PDO->__construct('mysql:host=loca...', 'yii2', 'asdf', NULL)
+#1 /home/wj/www/advanced/vendor/yiisoft/yii2/db/Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 /home/wj/www/advanced/vendor/yiisoft/yii2/db/Connection.php(858): yii\db\Connection->open()
+#3 /home/wj/www/advanced/vendor/yiisoft/yii2/db/Connection.php(845): yii\db\Connection->getMasterPdo()
+#4 /home/wj/www/advanced/vendor/yiisoft/yii2/db/Command.php(219): yii\db\Connection->getSlavePdo()
+#5 /home/wj/www/advanced/vendor/yiisoft/yii2/db/Command.php(834): yii\db\Command->prepare('<span class="ke...')
+#6 /home/wj/www/advanced/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 /home/wj/www/advanced/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#8 /home/wj/www/advanced/vendor/yiisoft/yii2/db/ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#9 /home/wj/www/advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(102): yii\db\ActiveQuery->one()
+#10 /home/wj/www/advanced/common/models/User.php(73): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#11 /home/wj/www/advanced/vendor/yiisoft/yii2/web/User.php(295): common\models\User::findIdentity('<span class="nu...')
+#12 /home/wj/www/advanced/vendor/yiisoft/yii2/web/User.php(631): yii\web\User->loginByCookie()
+#13 /home/wj/www/advanced/vendor/yiisoft/yii2/web/User.php(176): yii\web\User->renewAuthStatus()
+#14 /home/wj/www/advanced/vendor/yiisoft/yii2/web/User.php(346): yii\web\User->getIdentity()
+#15 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Component.php(130): yii\web\User->getIsGuest()
+#16 /home/wj/www/advanced/frontend/views/layouts/main.php(42): yii\base\Component->__get('<span class="st...')
+#17 /home/wj/www/advanced/vendor/yiisoft/yii2/base/View.php(325): require('/home/wj/www/ad...')
+#18 /home/wj/www/advanced/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#19 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Controller.php(392): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\SiteController))
+#20 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\Controller->renderContent('<span class="st...')
+#21 /home/wj/www/advanced/frontend/controllers/SiteController.php(75): yii\base\Controller->render('<span class="st...')
+#22 [internal function]: frontend\controllers\SiteController->actionIndex()
+#23 /home/wj/www/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#24 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#25 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#26 /home/wj/www/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#27 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /home/wj/www/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#29 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/wj/www/advanced/vendor/yiisoft/yii2/db/Connection.php:547
+Stack trace:
+#0 /home/wj/www/advanced/vendor/yiisoft/yii2/db/Connection.php(858): yii\db\Connection->open()
+#1 /home/wj/www/advanced/vendor/yiisoft/yii2/db/Connection.php(845): yii\db\Connection->getMasterPdo()
+#2 /home/wj/www/advanced/vendor/yiisoft/yii2/db/Command.php(219): yii\db\Connection->getSlavePdo()
+#3 /home/wj/www/advanced/vendor/yiisoft/yii2/db/Command.php(834): yii\db\Command->prepare('<span class="ke...')
+#4 /home/wj/www/advanced/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 /home/wj/www/advanced/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#6 /home/wj/www/advanced/vendor/yiisoft/yii2/db/ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#7 /home/wj/www/advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(102): yii\db\ActiveQuery->one()
+#8 /home/wj/www/advanced/common/models/User.php(73): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#9 /home/wj/www/advanced/vendor/yiisoft/yii2/web/User.php(295): common\models\User::findIdentity('<span class="nu...')
+#10 /home/wj/www/advanced/vendor/yiisoft/yii2/web/User.php(631): yii\web\User->loginByCookie()
+#11 /home/wj/www/advanced/vendor/yiisoft/yii2/web/User.php(176): yii\web\User->renewAuthStatus()
+#12 /home/wj/www/advanced/vendor/yiisoft/yii2/web/User.php(346): yii\web\User->getIdentity()
+#13 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Component.php(130): yii\web\User->getIsGuest()
+#14 /home/wj/www/advanced/frontend/views/layouts/main.php(42): yii\base\Component->__get('<span class="st...')
+#15 /home/wj/www/advanced/vendor/yiisoft/yii2/base/View.php(325): require('/home/wj/www/ad...')
+#16 /home/wj/www/advanced/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#17 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Controller.php(392): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\SiteController))
+#18 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\Controller->renderContent('<span class="st...')
+#19 /home/wj/www/advanced/frontend/controllers/SiteController.php(75): yii\base\Controller->render('<span class="st...')
+#20 [internal function]: frontend\controllers\SiteController->actionIndex()
+#21 /home/wj/www/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#22 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#23 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#24 /home/wj/www/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#25 /home/wj/www/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 /home/wj/www/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#27 {main}
+Additional Information:
+
+2016-03-23 09:07:32 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_identity' => 'cc9a37f58e833b46fda3e7ecb60103622f7f568668c297ef3c639dafe78a037ea:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"nNZS6iVHbZG1M9mlOadi1F1PSoHRUf5e\",2592000]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59544'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_identity=cc9a37f58e833b46fda3e7ecb60103622f7f568668c297ef3c639dafe78a037ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22nNZS6iVHbZG1M9mlOadi1F1PSoHRUf5e%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458695252.6809
+    'REQUEST_TIME' => 1458695252
+]
