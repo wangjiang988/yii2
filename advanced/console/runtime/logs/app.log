@@ -835,3 +835,85 @@ Stack trace:
     ]
     'argc' => 2
 ]
+2016-03-30 13:53:50 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'exec() has been disabled for security reasons' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/helpers/BaseConsole.php:621
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'exec() has been...', '/home/wj/www/yi...', 621, Array)
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/helpers/BaseConsole.php(621): exec('stty -a 2>&1', Array)
+#2 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/helpers/BaseConsole.php(662): yii\helpers\BaseConsole::getScreenSize(false)
+#3 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/console/controllers/HelpController.php(214): yii\helpers\BaseConsole::wrapText('Allows you to c...', 31)
+#4 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/console/controllers/HelpController.php(67): yii\console\controllers\HelpController->getDefaultHelp()
+#5 [internal function]: yii\console\controllers\HelpController->actionIndex(NULL)
+#6 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/console/Controller.php(108): yii\base\Controller->runAction('', Array)
+#9 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Module.php(454): yii\console\Controller->runAction('', Array)
+#10 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/console/Application.php(167): yii\base\Module->runAction('', Array)
+#11 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/console/Application.php(143): yii\console\Application->runAction('', Array)
+#12 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /home/wj/www/yii2/advanced/yii(27): yii\base\Application->run()
+#14 {main}
+2016-03-30 13:53:50 [-][-][-][info][application] $_SERVER = [
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/wj'
+    'GPG_AGENT_INFO' => '/tmp/gpg-cmgA5k/S.gpg-agent:2039:1'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'VTE_VERSION' => '4002'
+    'WINDOWID' => '50331658'
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/1881'
+    'GNOME_KEYRING_CONTROL' => ''
+    'USER' => 'wj'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'DEFAULTS_PATH' => '/usr/share/gconf/gnome.default.path'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-gnome:/usr/share/upstart/xdg:/etc/xdg'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'
+    'DESKTOP_SESSION' => 'gnome'
+    'QT_IM_MODULE' => 'fcitx'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'XDG_SESSION_TYPE' => 'x11'
+    'JOB' => 'gnome-session'
+    'PWD' => '/home/wj/www/yii2/advanced'
+    'XMODIFIERS' => '@im=fcitx'
+    'GNOME_KEYRING_PID' => ''
+    'LANG' => 'zh_CN.UTF-8'
+    'GDM_LANG' => 'zh_CN'
+    'MANDATORY_PATH' => '/usr/share/gconf/gnome.mandatory.path'
+    'GDMSESSION' => 'gnome'
+    'SESSIONTYPE' => 'gnome-session'
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'XDG_SEAT' => 'seat0'
+    'HOME' => '/home/wj'
+    'SHLVL' => '1'
+    'LANGUAGE' => 'zh_CN:'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_EVENTS' => 'started starting'
+    'XDG_SESSION_DESKTOP' => 'gnome'
+    'LOGNAME' => 'wj'
+    'QT4_IM_MODULE' => 'fcitx'
+    'XDG_DATA_DIRS' => '/usr/share/gnome:/usr/local/share/:/usr/share/'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-63GGUwIORS'
+    'INSTANCE' => 'GNOME'
+    'UPSTART_JOB' => 'gnome-settings-daemon'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'XDG_CURRENT_DESKTOP' => 'GNOME'
+    'GTK_IM_MODULE' => 'fcitx'
+    'XAUTHORITY' => '/home/wj/.Xauthority'
+    '_' => './yii'
+    'OLDPWD' => '/home/wj/www/yii2'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1459317230.4611
+    'REQUEST_TIME' => 1459317230
+    'argv' => [
+        0 => './yii'
+    ]
+    'argc' => 1
+]

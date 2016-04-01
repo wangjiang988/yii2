@@ -487,3 +487,2601 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1458695252.6809
     'REQUEST_TIME' => 1458695252
 ]
+2016-04-01 10:17:13 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:17:13 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50166'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477033.5014
+    'REQUEST_TIME' => 1459477033
+]
+2016-04-01 10:17:20 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:17:20 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50166'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477040.0198
+    'REQUEST_TIME' => 1459477040
+]
+2016-04-01 10:19:42 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:19:42 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/contact'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477182.9156
+    'REQUEST_TIME' => 1459477182
+]
+2016-04-01 10:19:44 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:19:44 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://f.yii2.com/site/contact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477184.5315
+    'REQUEST_TIME' => 1459477184
+]
+2016-04-01 10:19:45 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:19:45 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/about'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://f.yii2.com/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477185.4218
+    'REQUEST_TIME' => 1459477185
+]
+2016-04-01 10:19:46 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:19:46 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/contact'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://f.yii2.com/site/about'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477186.2296
+    'REQUEST_TIME' => 1459477186
+]
+2016-04-01 10:19:47 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:19:47 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://f.yii2.com/site/contact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477187.1263
+    'REQUEST_TIME' => 1459477187
+]
+2016-04-01 10:19:49 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:19:49 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_POST = [
+    '_csrf' => 'ejB2ampIa3cVBR8sED8FOANfNT1ZcAoxHWUdEzUbBCIefQwIBCssJA=='
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '66'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/logout'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '66'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://f.yii2.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://f.yii2.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477189.6202
+    'REQUEST_TIME' => 1459477189
+]
+2016-04-01 10:20:01 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:20:01 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477201.6138
+    'REQUEST_TIME' => 1459477201
+]
+2016-04-01 10:20:07 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:20:07 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://f.yii2.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477207.6229
+    'REQUEST_TIME' => 1459477207
+]
+2016-04-01 10:20:10 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:20:10 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://f.yii2.com/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477210.6251
+    'REQUEST_TIME' => 1459477210
+]
+2016-04-01 10:20:20 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:20:20 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => 'r=site/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477220.3885
+    'REQUEST_TIME' => 1459477220
+]
+2016-04-01 10:20:45 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'UrlRule::pattern must be set.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlRule.php:129
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\web\UrlRule->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\UrlRule', Array, Array)
+#4 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlRule', Array, Array)
+#5 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlManager.php(212): yii\BaseYii::createObject(Array)
+#6 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlManager.php(154): yii\web\UrlManager->buildRules(Array)
+#7 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\web\UrlManager->init()
+#8 [internal function]: yii\base\Object->__construct(Array)
+#9 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#10 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\UrlMana...', Array, Array)
+#11 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlMana...', Array, Array)
+#12 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#13 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(563): yii\di\ServiceLocator->get('urlManager')
+#14 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2-debug/Module.php(148): yii\base\Application->getUrlManager()
+#15 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(315): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#16 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(63): yii\base\Application->bootstrap()
+#17 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(267): yii\web\Application->bootstrap()
+#18 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\base\Application->init()
+#19 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#20 /home/wj/www/yii2/advanced/frontend/web/index.php(17): yii\base\Application->__construct(Array)
+#21 {main}
+2016-04-01 10:20:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => 'r=site/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477245.2918
+    'REQUEST_TIME' => 1459477245
+]
+2016-04-01 10:21:33 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:21:33 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => 'r=site/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477293.0288
+    'REQUEST_TIME' => 1459477293
+]
+2016-04-01 10:21:39 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'UrlRule::pattern must be set.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlRule.php:129
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\web\UrlRule->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\UrlRule', Array, Array)
+#4 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlRule', Array, Array)
+#5 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlManager.php(212): yii\BaseYii::createObject(Array)
+#6 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlManager.php(154): yii\web\UrlManager->buildRules(Array)
+#7 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\web\UrlManager->init()
+#8 [internal function]: yii\base\Object->__construct(Array)
+#9 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#10 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\UrlMana...', Array, Array)
+#11 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlMana...', Array, Array)
+#12 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#13 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(563): yii\di\ServiceLocator->get('urlManager')
+#14 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2-debug/Module.php(148): yii\base\Application->getUrlManager()
+#15 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(315): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#16 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(63): yii\base\Application->bootstrap()
+#17 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(267): yii\web\Application->bootstrap()
+#18 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\base\Application->init()
+#19 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#20 /home/wj/www/yii2/advanced/frontend/web/index.php(17): yii\base\Application->__construct(Array)
+#21 {main}
+2016-04-01 10:21:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => 'r=site/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477299.5559
+    'REQUEST_TIME' => 1459477299
+]
+2016-04-01 10:21:40 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'UrlRule::pattern must be set.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlRule.php:129
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\web\UrlRule->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\UrlRule', Array, Array)
+#4 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlRule', Array, Array)
+#5 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlManager.php(212): yii\BaseYii::createObject(Array)
+#6 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlManager.php(154): yii\web\UrlManager->buildRules(Array)
+#7 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\web\UrlManager->init()
+#8 [internal function]: yii\base\Object->__construct(Array)
+#9 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#10 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\UrlMana...', Array, Array)
+#11 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlMana...', Array, Array)
+#12 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#13 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(563): yii\di\ServiceLocator->get('urlManager')
+#14 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2-debug/Module.php(148): yii\base\Application->getUrlManager()
+#15 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(315): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#16 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(63): yii\base\Application->bootstrap()
+#17 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(267): yii\web\Application->bootstrap()
+#18 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\base\Application->init()
+#19 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#20 /home/wj/www/yii2/advanced/frontend/web/index.php(17): yii\base\Application->__construct(Array)
+#21 {main}
+2016-04-01 10:21:40 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => 'r=site/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477300.8953
+    'REQUEST_TIME' => 1459477300
+]
+2016-04-01 10:21:41 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'UrlRule::pattern must be set.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlRule.php:129
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\web\UrlRule->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\UrlRule', Array, Array)
+#4 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlRule', Array, Array)
+#5 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlManager.php(212): yii\BaseYii::createObject(Array)
+#6 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlManager.php(154): yii\web\UrlManager->buildRules(Array)
+#7 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\web\UrlManager->init()
+#8 [internal function]: yii\base\Object->__construct(Array)
+#9 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#10 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\UrlMana...', Array, Array)
+#11 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlMana...', Array, Array)
+#12 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#13 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(563): yii\di\ServiceLocator->get('urlManager')
+#14 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2-debug/Module.php(148): yii\base\Application->getUrlManager()
+#15 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(315): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#16 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(63): yii\base\Application->bootstrap()
+#17 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(267): yii\web\Application->bootstrap()
+#18 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\base\Application->init()
+#19 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#20 /home/wj/www/yii2/advanced/frontend/web/index.php(17): yii\base\Application->__construct(Array)
+#21 {main}
+2016-04-01 10:21:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => 'r=site/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477301.5526
+    'REQUEST_TIME' => 1459477301
+]
+2016-04-01 10:21:47 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'UrlRule::pattern must be set.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlRule.php:129
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\web\UrlRule->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\UrlRule', Array, Array)
+#4 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlRule', Array, Array)
+#5 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlManager.php(212): yii\BaseYii::createObject(Array)
+#6 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlManager.php(154): yii\web\UrlManager->buildRules(Array)
+#7 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\web\UrlManager->init()
+#8 [internal function]: yii\base\Object->__construct(Array)
+#9 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#10 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\UrlMana...', Array, Array)
+#11 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlMana...', Array, Array)
+#12 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#13 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(563): yii\di\ServiceLocator->get('urlManager')
+#14 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2-debug/Module.php(148): yii\base\Application->getUrlManager()
+#15 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(315): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#16 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(63): yii\base\Application->bootstrap()
+#17 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(267): yii\web\Application->bootstrap()
+#18 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\base\Application->init()
+#19 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#20 /home/wj/www/yii2/advanced/frontend/web/index.php(17): yii\base\Application->__construct(Array)
+#21 {main}
+2016-04-01 10:21:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => 'r=site/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477307.5163
+    'REQUEST_TIME' => 1459477307
+]
+2016-04-01 10:21:48 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'UrlRule::pattern must be set.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlRule.php:129
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\web\UrlRule->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\UrlRule', Array, Array)
+#4 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlRule', Array, Array)
+#5 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlManager.php(212): yii\BaseYii::createObject(Array)
+#6 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlManager.php(154): yii\web\UrlManager->buildRules(Array)
+#7 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\web\UrlManager->init()
+#8 [internal function]: yii\base\Object->__construct(Array)
+#9 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#10 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\UrlMana...', Array, Array)
+#11 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlMana...', Array, Array)
+#12 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#13 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(563): yii\di\ServiceLocator->get('urlManager')
+#14 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2-debug/Module.php(148): yii\base\Application->getUrlManager()
+#15 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(315): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#16 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(63): yii\base\Application->bootstrap()
+#17 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(267): yii\web\Application->bootstrap()
+#18 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\base\Application->init()
+#19 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#20 /home/wj/www/yii2/advanced/frontend/web/index.php(17): yii\base\Application->__construct(Array)
+#21 {main}
+2016-04-01 10:21:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => 'r=site/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477308.3312
+    'REQUEST_TIME' => 1459477308
+]
+2016-04-01 10:21:48 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'UrlRule::pattern must be set.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlRule.php:129
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\web\UrlRule->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\UrlRule', Array, Array)
+#4 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlRule', Array, Array)
+#5 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlManager.php(212): yii\BaseYii::createObject(Array)
+#6 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlManager.php(154): yii\web\UrlManager->buildRules(Array)
+#7 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\web\UrlManager->init()
+#8 [internal function]: yii\base\Object->__construct(Array)
+#9 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#10 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\UrlMana...', Array, Array)
+#11 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlMana...', Array, Array)
+#12 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#13 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(563): yii\di\ServiceLocator->get('urlManager')
+#14 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2-debug/Module.php(148): yii\base\Application->getUrlManager()
+#15 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(315): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#16 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(63): yii\base\Application->bootstrap()
+#17 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(267): yii\web\Application->bootstrap()
+#18 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\base\Application->init()
+#19 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#20 /home/wj/www/yii2/advanced/frontend/web/index.php(17): yii\base\Application->__construct(Array)
+#21 {main}
+2016-04-01 10:21:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => 'r=site/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477308.6503
+    'REQUEST_TIME' => 1459477308
+]
+2016-04-01 10:21:48 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'UrlRule::pattern must be set.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlRule.php:129
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\web\UrlRule->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\UrlRule', Array, Array)
+#4 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlRule', Array, Array)
+#5 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlManager.php(212): yii\BaseYii::createObject(Array)
+#6 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlManager.php(154): yii\web\UrlManager->buildRules(Array)
+#7 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\web\UrlManager->init()
+#8 [internal function]: yii\base\Object->__construct(Array)
+#9 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#10 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\UrlMana...', Array, Array)
+#11 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlMana...', Array, Array)
+#12 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#13 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(563): yii\di\ServiceLocator->get('urlManager')
+#14 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2-debug/Module.php(148): yii\base\Application->getUrlManager()
+#15 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(315): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#16 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(63): yii\base\Application->bootstrap()
+#17 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(267): yii\web\Application->bootstrap()
+#18 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\base\Application->init()
+#19 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#20 /home/wj/www/yii2/advanced/frontend/web/index.php(17): yii\base\Application->__construct(Array)
+#21 {main}
+2016-04-01 10:21:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => 'r=site/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477308.8207
+    'REQUEST_TIME' => 1459477308
+]
+2016-04-01 10:22:03 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'UrlRule::pattern must be set.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlRule.php:129
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\web\UrlRule->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\UrlRule', Array, Array)
+#4 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlRule', Array, Array)
+#5 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlManager.php(212): yii\BaseYii::createObject(Array)
+#6 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/UrlManager.php(154): yii\web\UrlManager->buildRules(Array)
+#7 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\web\UrlManager->init()
+#8 [internal function]: yii\base\Object->__construct(Array)
+#9 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#10 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\UrlMana...', Array, Array)
+#11 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlMana...', Array, Array)
+#12 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#13 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(563): yii\di\ServiceLocator->get('urlManager')
+#14 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2-debug/Module.php(148): yii\base\Application->getUrlManager()
+#15 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(315): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#16 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(63): yii\base\Application->bootstrap()
+#17 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(267): yii\web\Application->bootstrap()
+#18 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\base\Application->init()
+#19 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#20 /home/wj/www/yii2/advanced/frontend/web/index.php(17): yii\base\Application->__construct(Array)
+#21 {main}
+2016-04-01 10:22:03 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50318'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477323.6867
+    'REQUEST_TIME' => 1459477323
+]
+2016-04-01 10:23:32 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:23:32 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50418'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://f.yii2.com/site/about'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477412.6443
+    'REQUEST_TIME' => 1459477412
+]
+2016-04-01 10:23:36 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:23:36 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50412'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://f.yii2.com/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477416.4782
+    'REQUEST_TIME' => 1459477416
+]
+2016-04-01 10:23:37 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:23:37 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/about'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50412'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://f.yii2.com/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477417.4379
+    'REQUEST_TIME' => 1459477417
+]
+2016-04-01 10:24:03 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:24:03 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50410'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://f.yii2.com/site/about'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477443.2197
+    'REQUEST_TIME' => 1459477443
+]
+2016-04-01 10:24:06 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:24:06 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50408'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477446.3076
+    'REQUEST_TIME' => 1459477446
+]
+2016-04-01 10:28:14 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:28:14 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50500'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477694.5313
+    'REQUEST_TIME' => 1459477694
+]
+2016-04-01 10:28:16 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:28:15 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50510'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://f.yii2.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477695.9829
+    'REQUEST_TIME' => 1459477695
+]
+2016-04-01 10:28:17 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:28:17 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/about'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50510'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://f.yii2.com/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477696.9985
+    'REQUEST_TIME' => 1459477696
+]
+2016-04-01 10:28:17 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:28:17 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/contact'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50510'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://f.yii2.com/site/about'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477697.6538
+    'REQUEST_TIME' => 1459477697
+]
+2016-04-01 10:28:19 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:28:19 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/about'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50510'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://f.yii2.com/site/contact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477699.3741
+    'REQUEST_TIME' => 1459477699
+]
+2016-04-01 10:28:19 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:28:19 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50510'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://f.yii2.com/site/about'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477699.9515
+    'REQUEST_TIME' => 1459477699
+]
+2016-04-01 10:28:28 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:28:28 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50510'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://f.yii2.com/site/about'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477708.3475
+    'REQUEST_TIME' => 1459477708
+]
+2016-04-01 10:28:32 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:28:32 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50506'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477712.0586
+    'REQUEST_TIME' => 1459477712
+]
+2016-04-01 10:28:34 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:28:34 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50506'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477714.4258
+    'REQUEST_TIME' => 1459477714
+]
+2016-04-01 10:28:42 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:28:41 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/users'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50506'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477721.9915
+    'REQUEST_TIME' => 1459477721
+]
+2016-04-01 10:28:44 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:28:44 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/users'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50506'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459477724.5493
+    'REQUEST_TIME' => 1459477724
+]
+2016-04-01 10:37:56 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:37:56 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_GET = [
+    'users' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => 'users'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?users'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50814'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459478276.4775
+    'REQUEST_TIME' => 1459478276
+]
+2016-04-01 10:38:06 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:38:06 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/user'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50814'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459478286.3334
+    'REQUEST_TIME' => 1459478286
+]
+2016-04-01 10:38:54 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 10:38:54 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/users'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50814'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459478334.2904
+    'REQUEST_TIME' => 1459478334
+]
+2016-04-01 11:06:32 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 11:06:32 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/users'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52966'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459479992.3705
+    'REQUEST_TIME' => 1459479992
+]
+2016-04-01 11:08:56 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 11:08:56 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '53078'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459480136.7205
+    'REQUEST_TIME' => 1459480136
+]
+2016-04-01 11:10:43 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 11:10:43 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/users'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '53114'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459480243.834
+    'REQUEST_TIME' => 1459480243
+]
+2016-04-01 11:10:44 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 11:10:44 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/users'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '53114'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459480244.0003
+    'REQUEST_TIME' => 1459480244
+]
+2016-04-01 11:10:56 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-01 11:10:56 [127.0.0.1][1][4f6qmi4pn0gkomcosgn8usb7g6][info][application] $_COOKIE = [
+    'PHPSESSID' => '4f6qmi4pn0gkomcosgn8usb7g6'
+    '_csrf' => 'cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"o5iFzwnOyoCW38aFgUky_SoUdMzbncGS\";}'
+    '_identity' => 'c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'vumayu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/frontend/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/user'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '53114'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'f.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'f.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=4f6qmi4pn0gkomcosgn8usb7g6; _csrf=cac69bf5dfe131589df47917eb8cd7add278ba4c4592fcdfdc39ab398a2db72da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o5iFzwnOyoCW38aFgUky_SoUdMzbncGS%22%3B%7D; _identity=c344d5ad755e042d970915d6c28ace1c072267cbb0b0c73da1b22fb0e2790c19a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459480256.4805
+    'REQUEST_TIME' => 1459480256
+]

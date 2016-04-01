@@ -27,7 +27,7 @@ class AppAsset extends AssetBundle
         'static/css/style-responsive.css',
         'static/css/default.css',
         'static/css/uniform.default.css',
-
+        'static/css/site.css',
 
     ];
     public $js = [
@@ -43,7 +43,7 @@ class AppAsset extends AssetBundle
 
     ];
     public $depends = [
-//        'yii\web\YiiAsset',
+        'yii\web\YiiAsset',
 //        'yii\bootstrap\BootstrapAsset',
     ];
 }

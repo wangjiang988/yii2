@@ -28,11 +28,24 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+//        'urlManager' => [
+//            'enablePrettyUrl' => true,
+////            'enableStrictParsing' => true,
+//            'showScriptName' => false,
+//            'rules' => [
+//                [
+////                    'class' => 'yii\rest\UrlRule',
+////                    'controller' => 'user'
+//                ],
+//            ],
+//        ],
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'suffix' => '.html',
+            'enableStrictParsing' => true,
             'rules' => [
+                'class' => 'yii\rest\UrlRule',
+                'controller' => 'user'
             ],
         ],
     ],

@@ -4,3 +4,4 @@
 
 $this->title = 'YII中文网';
 ?>
+<?=$msg?>

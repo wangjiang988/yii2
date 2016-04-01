@@ -169,6 +169,7 @@ class I18N extends Component
     public function getMessageSource($category)
     {
         if (isset($this->translations[$category])) {
+
             $source = $this->translations[$category];
             if ($source instanceof MessageSource) {
                 return $source;
