@@ -501,7 +501,6 @@ class Module extends ServiceLocator
             $id = $route;
             $route = '';
         }
-
         // module and controller map take precedence
         if (isset($this->controllerMap[$id])) {
             $controller = Yii::createObject($this->controllerMap[$id], [$id, $this]);

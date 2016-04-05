@@ -104,6 +104,7 @@ class Object implements Configurable
         if (!empty($config)) {
             Yii::configure($this, $config);
         }
+
         $this->init();
     }
 

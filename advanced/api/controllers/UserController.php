@@ -37,6 +37,7 @@ class UserController extends ActiveController
 
     public function actions()
     {
+        \Yii::$container->set('yii\data\Pagination',['pageSize'=>\Yii::$app->params['perpage']]); //设置di容器来设置分页的选项
         $actions = parent::actions();
 
         // 禁用"delete" 和 "create" 操作

@@ -9,8 +9,26 @@ $params = array_merge(
 return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log'],
+    'bootstrap' => [
+        'log',
+    ],
+//    'catchAll' => [   //重定向所有请求到网址
+//        'site/notice',
+//        'isoff' => '1',
+//        'who' => 'wj',
+//    ],
+
     'controllerNamespace' => 'frontend\controllers',
+//    'controllerMap' => [   //控制器的重新定义 ,没有用
+//        [
+//            'bsite' => 'backend\controllers\SiteController',
+//            'sites' => [
+//                'class' => 'frontend\controllers\SiteController',
+//                'enableCsrfValidation' => false,
+//            ],
+//        ],
+//    ],
+//    'defaultRoute' => 'test', //设置默认路由
     'components' => [
         'user' => [
             'identityClass' => 'common\models\User',
@@ -42,10 +60,7 @@ return [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'enableStrictParsing' => true,
             'rules' => [
-                'class' => 'yii\rest\UrlRule',
-                'controller' => 'user'
             ],
         ],
     ],

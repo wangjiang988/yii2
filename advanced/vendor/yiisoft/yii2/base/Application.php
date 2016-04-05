@@ -202,8 +202,7 @@ abstract class Application extends Module
         $this->preInit($config);
 
         $this->registerErrorHandler($config);
-
-        Component::__construct($config);
+        Component::__construct($config); //组件初始化
     }
 
     /**

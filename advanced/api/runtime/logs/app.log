@@ -6481,3 +6481,287 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1459504623.3566
     'REQUEST_TIME' => 1459504623
 ]
+2016-04-05 09:19:44 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(374): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/api/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-05 09:19:44 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    'Hm_lvt_53e3f749bd42eb9ea13abaca5c7a618e' => '1459481488'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '57496'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'api.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://api.yii2.com/users'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; Hm_lvt_53e3f749bd42eb9ea13abaca5c7a618e=1459481488'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459819184.6165
+    'REQUEST_TIME' => 1459819184
+]
+2016-04-05 09:23:36 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(374): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/api/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-05 09:23:36 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    'Hm_lvt_53e3f749bd42eb9ea13abaca5c7a618e' => '1459481488'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '57506'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'api.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://api.yii2.com/users'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; Hm_lvt_53e3f749bd42eb9ea13abaca5c7a618e=1459481488'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459819416.8568
+    'REQUEST_TIME' => 1459819416
+]
+2016-04-05 09:23:48 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(374): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/api/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-05 09:23:48 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    'Hm_lvt_53e3f749bd42eb9ea13abaca5c7a618e' => '1459481488'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '57506'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'api.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://api.yii2.com/users'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; Hm_lvt_53e3f749bd42eb9ea13abaca5c7a618e=1459481488'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459819428.4643
+    'REQUEST_TIME' => 1459819428
+]
+2016-04-05 09:26:27 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\Application::param' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/di/ServiceLocator.php(73): yii\base\Component->__get('param')
+#1 /home/wj/www/yii2/advanced/api/controllers/UserController.php(40): yii\di\ServiceLocator->__get('param')
+#2 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Controller.php(220): api\controllers\UserController->actions()
+#3 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Controller.php(123): yii\base\Controller->createAction('index')
+#4 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#5 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/index', Array)
+#6 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(374): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/wj/www/yii2/advanced/api/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-05 09:26:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    'Hm_lvt_53e3f749bd42eb9ea13abaca5c7a618e' => '1459481488'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/users'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '57614'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'api.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; Hm_lvt_53e3f749bd42eb9ea13abaca5c7a618e=1459481488'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459819587.0395
+    'REQUEST_TIME' => 1459819587
+]
+2016-04-05 09:26:27 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(374): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/api/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-05 09:26:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    'Hm_lvt_53e3f749bd42eb9ea13abaca5c7a618e' => '1459481488'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '57616'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'api.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://api.yii2.com/users'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; Hm_lvt_53e3f749bd42eb9ea13abaca5c7a618e=1459481488'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459819587.2699
+    'REQUEST_TIME' => 1459819587
+]
+2016-04-05 09:26:51 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Request.php:190
+Stack trace:
+#0 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/wj/www/yii2/advanced/vendor/yiisoft/yii2/base/Application.php(374): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wj/www/yii2/advanced/api/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-04-05 09:26:51 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    'Hm_lvt_53e3f749bd42eb9ea13abaca5c7a618e' => '1459481488'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wj/www/yii2/advanced/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wj/www/yii2/advanced/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.8.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '57616'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'api.yii2.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yii2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://api.yii2.com/users'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; Hm_lvt_53e3f749bd42eb9ea13abaca5c7a618e=1459481488'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459819611.5704
+    'REQUEST_TIME' => 1459819611
+]

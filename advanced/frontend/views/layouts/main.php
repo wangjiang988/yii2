@@ -16,6 +16,9 @@ AppAsset::register($this);
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
 <head>
+    <?php
+    $this->title = 'My page title';
+    ?>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
@@ -78,6 +81,7 @@ AppAsset::register($this);
     ?>
 
     <div class="container">
+        <?php $this->params['breadcrumbs'][] = 'index';?>
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
